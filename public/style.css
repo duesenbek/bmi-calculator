@@ -48,6 +48,18 @@ input[type="submit"]:hover{
     color: #333;
     margin-top: 20px;
 }
+.result.blue{
+    color: blue;
+}
+.result.green{
+    color: green;
+}
+.result.orange{
+    color: orange;
+}
+.result.red{
+    color: red;
+}
 .error{
     text-align: center;
     font-size: 1.2em;

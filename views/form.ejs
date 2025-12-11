@@ -2,12 +2,16 @@
 <html>
 <head>
     <title>BMI Calculator</title>
-  <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/style.css">
 </head>
 <body>
 
 <div class="container">
     <h1>BMI Calculator</h1>
+
+    <% if (typeof error !== 'undefined' && error) { %>
+        <div class="error"><%= error %></div>
+    <% } %>
 
     <form action="/bmi" method="POST">
         <label>Weight (kg)</label>
